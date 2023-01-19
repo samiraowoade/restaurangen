@@ -1,0 +1,29 @@
+* {
+    background-color: black;
+}
+
+h1 {
+    color:ivory;
+    font-size: 100px;
+    text-align: center;
+}
+
+.bigtitle {
+    text-align: center;
+    font-family: 'Rouge Script', cursive;
+}
+
+.titlec
+
+.landing{
+    background: url(../img/food.webp);
+    max-width: fit-content;
+    margin: 15px;
+    border-radius: 2%;
+}
+
+.landing a{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 2%;
+}
