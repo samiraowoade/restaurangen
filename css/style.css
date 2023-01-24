@@ -1,5 +1,10 @@
-* {
+
+
+html, body {
     background-color: black;
+    padding: 0;
+    border: 0;
+    margin: 0;
 }
 
 h1 {
@@ -7,16 +12,47 @@ h1 {
     font-size: 100px;
     text-align: center;
 }
+h2 {
+    color: ivory;
+    text-align: center;
+}
+.bgimg {
+    font-size: 50px;
+    color:rgba(1, 1, 1, 0) ;
+    background: url("../img/dining.jpeg") no-repeat center;
+    background-size: cover ;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+
+}
 
 .bigtitle {
     text-align: center;
     font-family: 'Rouge Script', cursive;
+    color:ivory;
+    font-size: 120px;
+    display: inline-block;
+
+ 
+}
+   
+
+.titlequote {
+    color: ivory;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0.5mm;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400;
+    margin-top: 0x;
+    
+    border: none;
 }
 
-.titlec
 
 .landing{
-    background: url(../img/food.webp);
+    background: url("../img/food.webp");
     max-width: fit-content;
     margin: 15px;
     border-radius: 2%;

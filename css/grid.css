@@ -1,0 +1,23 @@
+.container{
+  display: grid;
+
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+}
+
+.bgimg {
+  grid-column: 1/-1;
+  grid-row: 1/10;
+}
+
+.bigtitle {
+  grid-column: 1/-1;
+  grid-row: 2/3;
+}
+
+
+.titlequote {
+  grid-column: 1/-1;
+  grid-row: 3/4;
+}
+
